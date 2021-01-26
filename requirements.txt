@@ -1,1 +1,6 @@
-
+screen-brightness-control
+pywin32
+pillow
+pygame
+mutagen
+win10toast
