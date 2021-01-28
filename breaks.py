@@ -87,13 +87,16 @@ def startNotifications():
 
 
 def stopNotifications():
-    userNotificationData = {
-        "notifications":{"showNotifications":False}
-    }
-    modifyUserActivity(userNotificationData)
 
-    time.sleep(3)
-    showNotifications("Notifications Off", "The notifications are now turned off")
+    data = getUserActivity()["notifications"]
+    if data["showNotifications"]:
+        userNotificationData = {
+            "notifications":{"showNotifications":False}
+        }
+        modifyUserActivity(userNotificationData)
+
+        time.sleep(3)
+        showNotifications("Notifications Off", "The notifications are now turned off")
 
 def showHelp(root, WIDTH, HEIGHT):
 
