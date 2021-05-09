@@ -70,6 +70,6 @@
 
 > <font size = "5"> This project was made by Ved Rathi for a Timathon hosted by Tim. </font>
 
-<br>
+<br><br>
 
 *-Thank You*
