@@ -68,7 +68,7 @@
 <hr>
 <br>
 
-> <font size = "5"> This project was made by Ved Rathi for a Timathon hosted by Tim. </font>
+> <font size = "5"> This project was made by Ved Rathi for a Timathon </font>
 
 <br><br>
 
